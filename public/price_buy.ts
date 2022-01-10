@@ -1,10 +1,10 @@
 import { BASE_URL, PRICES } from "./constants.ts";
 import { jsonFetch, Reviver } from "./_utils.ts";
 import { isString } from "../deps.ts";
-import type { BTC, ETH } from "../deps.ts";
+import type { CoinbaseSymbol } from "./types.ts";
 
 export type PriceOptions = {
-  currencyPair: `${BTC | ETH}-${string}`;
+  currencyPair: `${CoinbaseSymbol}-${string}`;
 };
 export type PriceResponse = {
   data: {
