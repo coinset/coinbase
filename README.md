@@ -1,4 +1,4 @@
-# @coinset/
+# @coinset/coinbase
 
 Universal Coinbase API client
 
